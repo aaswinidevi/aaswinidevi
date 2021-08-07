@@ -1,0 +1,114 @@
+*{
+    padding: 0px;
+    margin: 0px;
+
+}
+body{
+    background-image: url(../image/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+header{
+    background-color:rgb(233, 108, 108);
+    height: 10%;
+}
+img{
+    margin-left: 10%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+}
+.header-tag{
+    float: right;
+    margin-top: 5%;
+    margin-right: 60px;
+
+    
+}
+.header-tag a{
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: 1px solid white;
+    padding: 10px;
+    margin-right: 10px;
+}
+.header-tag a:hover{
+    background-color: white;
+    color:black;
+    transition: .6s ease-in-out;
+
+}
+.contents{
+   margin-left: 10%; 
+   margin-top: 10%;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+
+}
+.contents li{
+    margin-top: 7px;
+    list-style: square;
+
+    
+}
+.login{
+    float: right;
+    margin-top: 10%;
+    margin-right: 5%;
+    border: 2px solid black;
+    padding: 2%;
+    height: 15em;
+    background-color: cyan;
+}
+.logindetails{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+.login h2{
+    text-align:center ;
+
+}
+.login input{
+    height: 1.5em;
+}
+#button{
+    width: 100%;
+    background-color: cornflowerblue;
+    border: 2px solid cornflowerblue;
+}
+.container{
+    float: left;
+    /* border: 1px solid black; */
+    margin-top: 3%;
+    
+    margin-right: 15px;
+}
+.sub h4{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: large;
+    font-weight: bold;
+    text-align: center;
+}
+.sub{
+    border: 2px solid black;
+    margin-right: 15px;
+    width: 20%;
+    float: right;
+    height: 20em;
+    padding: 1em;
+    background-color: cadetblue;
+}
+#button{
+    margin-top: 5em;
+    background-color: cornsilk;
+    border: 2px solid cornsilk;
+}
+footer{
+    background-color: black;
+    margin-top:50%;
+    height: 2em;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+}
+
